@@ -1,0 +1,51 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    }
+.header{
+    height: 60px;
+    line-height: 60px;
+    padding: 20px 30px 20px 50px;
+    background-color: #9bbc88;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    display:flex;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+} 
+.main{
+    display:flex;
+}
+.content{
+    width: 70%;
+    min-height: 500px;
+}
+.sidebar{
+    width: 30%;
+    color: white;
+    background-color: darkgrey;
+    min-height: 500px;
+}
+p{
+    margin: 20px;
+}
+.blog-post{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.image{
+    float: left;
+    margin:10px;
+}
+   
